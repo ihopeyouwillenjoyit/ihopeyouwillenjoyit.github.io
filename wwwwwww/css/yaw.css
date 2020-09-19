@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to left, #00416A, #E4E5E6);
+}
+
+.block_row {
+    flex-wrap: nowrap;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 6.5%;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+img {
+    
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    
+
+}
+
+
+.item {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+
+.item:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+      transform: scale(1.2);
+}

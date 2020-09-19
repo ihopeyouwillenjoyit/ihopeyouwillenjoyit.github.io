@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+
+body {
+    zoom: 125%;
+	font-family: 'Baloo Tammudu 2', cursive;
+	background: linear-gradient(to left, #D3CCE3, #E9E4F0);
+    font-size: 20px ;
+}
+
+
+.headder {
+    background: linear-gradient(to left, #4568DC, #B06AB3);
+	margin-top: 5%;
+	text-align: center;
+    font-size: 40px ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.headde:hover {
+    background-position: right;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+.block_row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 12.5%;
+}
+
+
+.link {
+	color: red;
+	text-decoration: none;
+}
+
+.btn {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    font-size: 20px;
+	font-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #4568DC, #B06AB3);
+	text-decoration: none;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+}
+
+.btn:hover {
+	background-position: right;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.item {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+   
+}
+
+
+.item:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+      transform: scale(1.2);
+}
